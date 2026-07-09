@@ -170,61 +170,61 @@
 
 :root,
 .dark {
-  /* Surfaces — deep navy with premium depth */
-  --background:           #0A0E17;          /* tier 0 — deep navy page base */
-  --foreground:           #FFFFFF;
-  --card:                 #0F141F;          /* tier 1 — raised cards */
-  --card-foreground:      #FFFFFF;
-  --popover:              #151A26;          /* tier 2 — overlays/popovers */
-  --popover-foreground:   #FFFFFF;
+  /* Surfaces — RinoxAuth Purple/Violet Theme */
+  --background:           #09090B;          /* tier 0 — pure black base */
+  --foreground:           #FAFAFA;
+  --card:                 #18181C;          /* tier 1 — dark cards */
+  --card-foreground:      #FAFAFA;
+  --popover:              #18181C;          /* tier 2 — overlays/popovers */
+  --popover-foreground:   #FAFAFA;
 
-  /* Primary — electric blue/cyan */
-  --primary:              #00D4FF;
-  --primary-foreground:   #0A0E17;
-  --primary-hover:        #00E5FF;
+  /* Primary — Electric Violet */
+  --primary:              #7C3AED;
+  --primary-foreground:   #FAFAFA;
+  --primary-hover:        #8B5CF6;
 
-  --secondary:            #1A2030;
+  --secondary:            #27272F;
   --secondary-foreground: #E4E8F0;
 
-  --muted:                #151A26;
-  --muted-foreground:     #A0A8B8;
+  --muted:                #27272F;
+  --muted-foreground:     #A1A1AA;
 
-  --accent:               #0099CC;          /* cyan accent */
-  --accent-foreground:    #FFFFFF;
+  --accent:               #7C3AED;          /* violet accent */
+  --accent-foreground:    #FAFAFA;
 
-  --destructive:          #FF4757;          /* modern red */
-  --destructive-foreground: #FFFFFF;
-  --success:              #00D4AA;          /* emerald cyan */
-  --success-foreground:   #0A0E17;
-  --warning:              #FFB700;          /* amber */
-  --warning-foreground:   #0A0E17;
-  --info:                 #00D4FF;          /* electric blue */
-  --info-foreground:      #0A0E17;
+  --destructive:          #EF4444;          /* red error */
+  --destructive-foreground: #FAFAFA;
+  --success:              #22C55E;          /* green success */
+  --success-foreground:   #09090B;
+  --warning:              #F59E0B;          /* amber warning */
+  --warning-foreground:   #09090B;
+  --info:                 #7C3AED;          /* purple info */
+  --info-foreground:      #FAFAFA;
 
-  --border:               rgba(255, 255, 255, 0.06);
+  --border:               #27272F;
   --input:                rgba(255, 255, 255, 0.05);
-  --ring:                 #00D4FF;          /* cyan glow ring */
+  --ring:                 #7C3AED;          /* violet ring */
 
-  --sidebar:              #0B0F18;
-  --sidebar-foreground:   #C8D0E0;
-  --sidebar-primary:      #00D4FF;
-  --sidebar-primary-foreground: #0A0E17;
-  --sidebar-accent:       rgba(0, 212, 255, 0.12);
-  --sidebar-accent-foreground: #00D4FF;
-  --sidebar-border:       rgba(255, 255, 255, 0.05);
-  --sidebar-ring:         #00D4FF;
+  --sidebar:              #111114;
+  --sidebar-foreground:   #E4E8F0;
+  --sidebar-primary:      #7C3AED;
+  --sidebar-primary-foreground: #FAFAFA;
+  --sidebar-accent:       rgba(124, 58, 237, 0.12);
+  --sidebar-accent-foreground: #7C3AED;
+  --sidebar-border:       #27272F;
+  --sidebar-ring:         #7C3AED;
 
-  /* Chart palette — cyan→blue→teal */
-  --chart-1: #00D4FF;  /* electric blue */
-  --chart-2: #0099CC;  /* cyan */
-  --chart-3: #006699;  /* deep blue */
-  --chart-4: #00D4AA;  /* teal cyan */
-  --chart-5: #00FF99;  /* bright green */
+  /* Chart palette — Violet theme */
+  --chart-1: #7C3AED;  /* violet primary */
+  --chart-2: #8B5CF6;  /* violet light */
+  --chart-3: #6D28D9;  /* violet dark */
+  --chart-4: #22C55E;  /* green success */
+  --chart-5: #06B6D4;  /* cyan accent */
 
   /* Soft shadows (depth) */
   --shadow-card:       0 1px 0 rgba(255,255,255,0.03) inset, 0 2px 8px rgba(0,0,0,0.5);
   --shadow-card-hover: 0 1px 0 rgba(255,255,255,0.05) inset, 0 8px 24px rgba(0,0,0,0.6);
-  --shadow-glow:       0 0 40px -8px rgba(0, 212, 255, 0.25);
+  --shadow-glow:       0 0 40px -8px rgba(124, 58, 237, 0.25);
 
   /* Brand aliases (legacy consumers) */
   --vault-background:           var(--background);
